@@ -1,12 +1,12 @@
+import React from "react";
+import Login from "./Components/Login";
 
-import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-       hello!
-      </header>
+      <h1>firebase react login</h1>
+      <Login></Login>
     </div>
   );
 }
